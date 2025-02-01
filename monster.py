@@ -300,7 +300,7 @@ def handle_attack(message):
                     start_attack_reply(message, target, port, time)
 
                     # Simulate sex process
-                    full_command = f"./soul {target} {port} {time} 900"
+                    full_command = f"./soul {target} {port} {13} {time} 900"
                     subprocess.run(full_command, shell=True)
 
                     response = "sex completed successfully feedback doo."
